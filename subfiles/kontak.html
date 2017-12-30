@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- misbahhdn -->
+<html>
+    <head>
+        <title> iBEH-Kontak KodingTKJ1 </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+
+        <!-- menu website -->
+        <div id="div_menu">
+            <br>
+            <a href="../index.html" class="menu">Home</a>
+            <a href="../subfiles/kontak.html" class="menu">Kontak</a>
+            <a href="../subfiles/member.html" class="menu">Member</a>
+        </div>
+
+        <!-- bagian awal, isinya tag heading -->
+        <div id="div_head">
+            <h1> Kontak Koding TKJ1 </h1>
+            <h2 id="head"> Tutorial offline untuk belajar <span>membuat website</span> </h2>
+        </div>
+
+        <!-- membuat form -->
+        <form>
+			  <div style="color:white;margin:0 0 0% 0;"><br>
+				<fieldset style="padding:23px 23px 50px 23px;border-color:white;border-radius:8px 8px 0px 0px;background:rgba(0, 128, 128, 0.5);">
+                    <legend>Nama & Pesan</legend>
+                    <br>
+                    <tabel>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td><input type="text" name="nm_siswa" placeholder="Nama user" class="user"></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td>Pesan</td>
+                            <td>:</td>
+                            <td>
+                            <textarea name="alamat" placeholder="Pesan user..." class="user" style="float:right;margin:0 82.75% 0 0;"></textarea>
+                            </td>
+                        </tr>
+                    </tabel>
+                </fieldset><br>
+			  </div>
+			  <div style="margin:0 0px 0% 0px;color:white;">
+				<fieldset style="padding:23px 23px 23px 23px;border-color:white;border-radius:8px 8px 0px 0px;margin:0 20px 0 20px;background:rgba(0, 128, 128, 0.5);">
+					<legend>Pilihan - <em>Data</em></legend>
+					<label>Tgl : </label><input name="startdate" min="2000-01-01" max="3000-01-01" type="date">
+					<input type="color">
+					<br><br>
+					<label>Agama : </label>
+					<select>
+						<optgroup label="Agama :">
+							<option value="islam">Islam</option>
+							<option value="kristen">Kristen</option>
+							<option value="katolik">Katolik</option>
+							<option value="hindu">Hindu</option>
+							<option value="budha">Budha</option>
+						</optgruop>
+					</select>
+					<br><br>
+					<label>Hobi :</label><br>
+					<input type="checkbox" name="hobi_user" value="0" checked> Programing <br>
+					<input type="checkbox" name="hobi_user" value="1"> Desain grafis <br>
+					<input type="checkbox" name="hobi_user" value="2"> Mobile programing
+					<br><br>
+					<label>Jenis kelamin :</label>
+					<input type="radio" name="gender" value="0" checked>Laki-laki
+					<input type="radio" name="gender" value="1">Perempuan
+					<br><br>
+					<label>Mata pelajaran : </label>
+					<select>
+						<optgroup label="Frontend">
+							<option value="html">HTML</option>
+							<option value="css">CSS</option>
+							<option value="c++">C++</option>
+						</optgruop>
+						<optgroup label="Backend">
+							<option value="php">PHP</option>
+							<option value="mysql">MySQL</option>
+							<option value="db">Database</option>
+						</optgroup>
+					</select>
+                    <br>
+                </fieldset>
+                <fieldset style="border-radius:0 0 8px 8px;border-color:white;border-top:0px;background:rgba(0, 128, 128, 1);padding:23px 23px;">
+                    <div style="text-align:right;">
+                        <input type="submit" value="kirim" style="text-align:center;cursor:pointer;outline:none;padding:5px 5px;font-weight:bold;font-size:15px;border-radius:1vmax;">
+                    </div>
+                </fieldset>
+			</div>
+        </form>
+
+        <br><br>
+
+        <!-- membuat table -->
+        <table border="2" style="border-color:white;border-radius:1vmin;">
+            <caption> <b>DAFTAR SISWA/I Koding TKJ1</b> </caption>
+            <tr>
+                <th>NIS</th>
+                <th>Nama siswa/i</th>
+                <th>Tempat lahir</th>
+                <th>Tgl lahir</th>
+                <th>Jenis kelamin</th>
+                <th>Alamat</th>
+                <th>Agama</th>
+                <th>Kota asal</th>
+                <th>No.Tlpn/Hp</th>
+            </tr>
+            <tr>
+                <td>101112</td>
+                <td>Lilis</td>
+                <td>Lampung</td>
+                <td>18-08-2000</td>
+                <td>Perempuan</td>
+                <td>kp.pasirgadung</td>
+                <td>Islam</td>
+                <td>Tangerang</td>
+                <td>+62896112312323</td>
+            </tr>
+            <tr>
+                <td>101112</td>
+                <td>Misbah</td>
+                <td>Serang</td>
+                <td>01-03-2000</td>
+                <td>Laki-laki</td>
+                <td>kp.pasirawi</td>
+                <td>Islam</td>
+                <td>Tangerang</td>
+                <td>+6281542424822</td>
+            </tr>
+            <tr>
+                <td>101112</td>
+                <td>Yanti</td>
+                <td>Jakarta</td>
+                <td>08-12-2000</td>
+                <td>Perempuan</td>
+                <td>kp.cilongok</td>
+                <td>Islam</td>
+                <td>Tangerang</td>
+                <td>+62896111222333</td>
+            </tr>
+            <tr>
+                <td>101112</td>
+                <td>Zufar</td>
+                <td>Bandung</td>
+                <td>25-07-2000</td>
+                <td>Laki-laki</td>
+                <td>kp.rajegasri</td>
+                <td>Islam</td>
+                <td>Tangerang</td>
+                <td>+62896123123333</td>
+            </tr>
+        </table>
+
+        <!-- list pada html -->
+        <ul class="list">
+            <li>misbah</li>
+            <li>zufar</li>
+            <li>lilis</li>
+            <li>yanti</li>
+        </ul>
+
+        <ol class="list">
+            <li>misbah</li>
+            <li>zufar</li>
+            <li>lilis</li>
+            <li>yanti</li>
+        </ol>
+
+        <dl class="list">
+            <dt>misbah</dt>
+            <dd>user 1st koding TKJ1</dd>
+
+            <dt>zufar</dt>
+            <dd>user 2nd koding TKJ1</dd>
+
+            <dt>lilis</dt>
+            <dd>user 3rd koding TKJ1</dd>
+
+            <dt>yanti</dt>
+            <dd>user 4rd koding TKJ1</dd>
+        </dl>
+        
+		<div id="div0">
+            <a href="https://facebook.com" target="_blank" id="link_facebook"></a>&nbsp;
+            <a href="https://twitter.com" target="_blank" id="link_twitter"></a>&nbsp;
+            <a href="https://instagram.com" target="_blank" id="link_instagram"></a>&nbsp;
+			<a href="https://gmail.com" target="_blank" id="link_gmail"></a>
+        </div>
+
+            <hr style="margin:0% 33% 0 33%;clear:both">
+            <p style="color:white;text-align:center">&copy;2017&trade;<br><br>Koding TKJ1</p>
+            <p style="color:white;text-align:center">(Teknik Komputer Jaringan)</p>
+    </body>
+</html>

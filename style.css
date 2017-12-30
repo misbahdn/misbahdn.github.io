@@ -1,0 +1,344 @@
+/*
+background-color: #bbeeff;
+background-image: url("gambar/logo.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+*/
+
+/*-- home --*/
+    body{
+        background: rgb(5, 55, 55) url('gambar/logo2.png') no-repeat fixed center;
+        font-family: sansation;
+        text-align: center;
+        margin: 0 0px 0 0px;
+        clear: both;
+    }
+
+    #div_head{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: navy;
+         
+    }
+    #div_menu{
+        background:rgba(255, 255, 255, 0.5);padding:10px;
+    
+    }
+    .menu{
+        color: white;
+    }
+    #konten {
+        margin-top: 200px;
+    }
+    h1{
+        color: red;
+        text-align: center;
+        font-family: supercell-magic;
+        font-weight: bold;
+    }
+
+    #head{
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 3px;
+        margin: 0 0 3% 0;
+        font-family: supercell-magic;
+        font-weight: bold;
+    }
+
+    #text_short{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: sansation;
+    }
+
+    #text_long{
+        text-align: justify;
+        text-indent: 50px;
+        letter-spacing:3px;
+        line-height: 40px;
+        font-size: 20px;
+        color: white;
+        clear: both;
+        float: left;
+
+        /*margin:top right bottom left;*/
+        margin: 0 0px 0% 20px;
+        /*-dimensi elemen-*/
+        width: 70%;
+    }
+
+    #more{
+        color: white;
+        clear: both;
+        font-weight: bold;
+        font-size: 11pt;
+        font-family: sansation;
+        margin: 0px 0px 8% 0px;
+
+        border-width: 2px;
+        border-style: solid ;
+        border-radius: 3vw;
+        /*box-shadow: hor ver blur spread color*/
+        box-shadow: 10px 5px 35px 1px black;
+        border-color: white;
+        text-decoration: none;
+
+        padding: 8px 8px;
+
+    }
+    /*
+    #more:link{
+        background: rgb(0, 128, 128);
+    }
+
+    #more:visited{
+        background: rgb(5, 55, 55);
+    }
+    */
+    #more:hover{
+        clear: both;
+        background: white;
+        color: rgb(5, 55, 55);
+        transition: background 1s, color 1s;
+    }
+
+    #more:active{
+        background: rgba(255, 255, 255, 0.5);
+        color: red;
+        text-decoration: underline;
+        padding: 7px 7px;
+        transition: background 1s;
+    }
+
+    /*menu website*/
+    /*
+    #div_menu{
+        text-align: center;
+        background: rgb(0, 128, 128);
+        padding: 10px 0;
+        margin: 0 41% 0 41%;
+        transition: margin 1s, transform 1s;
+    }
+
+    #div_menu:hover{
+        text-align: center;
+        background: rgb(0, 128, 128) fixed;
+        padding: 10px 0;
+        margin: 0 0% 0 0%;
+
+    }
+
+    .menu{
+        color: white;
+        font-weight: bold;
+
+        border-width: 3px;
+        border-style: solid ;
+        border-radius: 1vmin;
+        border-color: white;
+        text-decoration: none;
+
+        padding: 8px 8px;
+    }
+
+    /*kondisi biasa*/
+    /* .menu:link{
+        background: rgb(0, 128, 128);
+    } */
+
+    /*kondisi setelah di kunjungi*/
+    .menu:visited{
+        background: rgb(0, 128, 128);
+    }
+
+    /*kondisi hover-mouse berada diatasnya*/
+    .menu:hover{
+        background: white;
+        color: rgb(0, 128, 128);
+        transition: background 1s, color 1s;
+    }
+
+    /*sedang diklik*/
+      .menu:active{
+        background: rgb(0, 128, 128);
+        color: white;
+        transition: background 1s, color 1s;
+    }
+
+/*-- menu link --*/
+    #div0{
+        text-align: left;
+        clear: both;
+		background-position:center;
+    }
+
+    #link_facebook{
+        color: rgb(0, 0, 255);
+        font-weight:bold;
+        font-size: 33px;
+        font-family: facebook letter faces;
+        text-decoration: none;
+        background: rgb(0,0,255) url('gambar/linkfb1.png') center no-repeat;
+        background-size: 0px 23px;
+        transition: 1s;
+		border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+
+        border-width: 0px;
+        border-style: solid;
+        /*border-radius: 1vmin;*/
+        border-color: black;
+
+        padding: 8px 12px;
+    }
+
+    #link_twitter{
+        color: rgb(0,128,255);
+        font-weight:bold;
+        font-size: 33px;
+        text-decoration: none;
+        background: rgb(0,128,255) url('gambar/linktwt1.png') center no-repeat;
+        background-size: 0px 23px;
+        transition: 1s;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+
+        border-width: 0px;
+        border-style: solid;
+        /*border-radius: 1vmin;*/
+        border-color: black;
+
+        padding:8px 12px;
+    }
+
+    #link_instagram{
+        color:rgb(128, 0, 128);
+        font-weight:bold;
+        font-size: 33px;
+        text-decoration: none;
+        background: rgb(128, 0, 128) url('gambar/linkig1.png') center no-repeat;
+        background-size: 0px 23px;
+        transition: 1s;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+
+        border-width: 0px;
+        border-style: solid;
+        /*border-radius: 1vmin;*/
+        border-color: black;
+
+        padding: 8px 12px;
+    }
+
+	  #link_gmail{
+        color:rgb(128, 0, 128);
+        font-weight:bold;
+        font-size: 33px;
+        text-decoration: none;
+        background: rgb(237, 28, 36) url('gambar/linkgo1.png') center no-repeat;
+        background-size: 0px 18px;
+        transition: 1s;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+
+        border-width: 0px;
+        border-style: solid;
+        /*border-radius: 1vmin;*/
+        border-color: black;
+
+        padding: 8px 12px;
+    }
+
+    #link_facebook:hover{
+        color: white;
+        font-weight:bold;
+        font-size: 33px;
+        font-family: facebook letter faces;
+        text-decoration: none;
+        background: rgb(0,0,255) url('gambar/linkfb1.png') center no-repeat;
+        background-size: 13px 23px;
+        transition: 1s;
+
+        border-width: 0px;
+        border-style: solid;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+        border-color: white;
+
+        padding: 8px 45px;
+    }
+
+    #link_twitter:hover{
+        color: white;
+        font-weight:bold;
+        font-size: 33px;
+        font-family: velocity;
+        text-decoration: none;
+        background: rgb(0,128,255) url('gambar/linktwt1.png') center no-repeat;
+        background-size: 23px 23px;
+        transition: 1s;
+
+        border-width: 0px;
+        border-style: solid;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+        border-color: white;
+
+        padding: 8px 45px;
+    }
+
+    #link_instagram:hover{
+        color: white;
+        font-weight:bold;
+        font-size: 33px;
+        text-decoration: none;
+        background: rgb(128, 0, 128) url('gambar/linkig1.png') no-repeat center;
+        background-size: 23px 23px;
+        transition: 1s;
+
+        border-width: 0px;
+        border-style: solid;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+        border-color: white;
+
+        padding: 8px 45px;
+    }
+
+	#link_gmail:hover{
+        color: white;
+        font-weight:bold;
+        font-size: 33px;
+        text-decoration: none;
+        background: rgb(237, 28, 36) url('gambar/linkgo1.png') no-repeat center;
+        background-size: 23px 18px;
+        transition: 1s;
+
+        border-width: 0px;
+        border-style: solid;
+        border-top-right-radius: 1vmin;
+        border-bottom-right-radius: 1vmin;
+        border-color: white;
+
+        padding: 8px 45px;
+    }
+
+    /*
+    #div1{
+        float: center;
+    }
+    */
+    #png{
+        /*transform: rotateZ(0deg);*/
+        transition: transform 1s;
+        clear: both;
+    }
+
+    #png:hover{
+        transform: rotateZ(-18deg);
+	}
