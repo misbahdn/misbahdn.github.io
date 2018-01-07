@@ -1,72 +1,53 @@
 body{
-background: rgb(5, 55, 55) url('../gambar/logo2.png') no-repeat fixed center;
-font-family: sansation;
-color: white;
+/*background: rgb(5, 55, 55) url('../gambar/logo2.png') no-repeat fixed center;*/
+text-align: center;
+font-family: calibri;
+color: black;
 margin: 0 0px 0 0px;
-clear: both;
 }
 
 #div_head{
-padding: 0px 0px;
-margin: 0 0 0% 0;
-}
-
-h1{
-color:red;
-text-align: center;
-font-family: supercell-magic;
-}
-
-#head{
-color: white;
-text-transform: uppercase;
-text-align: center;
-line-height: 3px;
-margin: 0 0 3% 0;
-font-family: supercell-magic;
+padding-bottom: 0px;
 }
 
 /*menu website*/
 #div_menu{
-text-align: center;
+  padding-bottom:0px;
 }
-
 .menu{
-color: white;
+opacity: 0.5;
+color:rgb(0, 128, 128);
 font-weight: bold;
-font-family: sansation;
-
-border-width: 2px;
+/*border-width: 2px;
 border-style: solid;
 border-radius: 1vmin;
 border-color: white;
 text-decoration: none;
 
-padding: 8px 8px;
+padding: 8px 8px;*/
 }
 
 /*kondisi biasa*/
 
 /*kondisi setelah di kunjungi*/
-
 /*
 .menu:visited{
-background: rgb(5, 55, 55);
-}
-*/
+opacity: 1;
+color: rgb(0, 128, 128);
+}*/
 
 /*kondisi hover-mouse berada diatasnya*/
 .menu:hover{
+opacity: 1;
 background: white;
-color: rgb(5, 55, 55);
 transition: background 1s, color 1s;
 }
 
 /*sedang diklik*/
-.menu:active{
-/*background: rgb(5, 55, 55);*/
+/*.menu:active{
+color: rgb(0, 128, 128);
 transition: background 1s, color 1s;
-}
+}*/
 
 .user{
 /*
@@ -75,44 +56,75 @@ border-radius: 1vmin;
 border-width: 1px;
 */
 border: hidden;
-outline-color: rgb(5, 55, 55);
 }
 
-input:focus, textarea:focus{
+#div-field{
+  float: left;
+  padding-top: 0px;
+
+}
+
+#field{
+  border: 0;
+  padding:10px 250px 60px 23px;
+  border-radius:18px 0px 0px 18px;
+  background: rgba(0, 128, 128, 0.9);
+  margin: 0px 20px 0px 20px;
+  text-align: left;
+}
+
+#field1{
+  border: 0;
+  padding:23px 23px 26px 23px;
+  border-radius:0px 18px 0px 0px;
+  background: rgba(0, 128, 128, 0.9);
+  margin: 50px 20px 0px 20px;
+  text-align: left;
+}
+
+fieldset{
+  border: 0;
+  border-top:0px;
+  border-radius:0 0 18px 0px;
+  padding:23px 23px;
+  margin: 0 20px 0 492px;
+  background:rgb(0, 128, 128);
+}
+
+#table, tr, th, td{
 clear: both;
-}
-
-fieldset, table, tr, th, td{
-margin: 0 20px 0 20px;
+border-width: 2px;
+border-color: rgb(0, 128, 128);
+text-align: left;
+margin: 20px 0px 20px 20px;
 border-radius: 0.5vmin;
 }
 
-ul, ol, dl{
-float: left;
+/*ul, ol, dl{
 margin: 30px 0% 8% 40px;
 padding: 0px 0px;
 width: 17%;
-}
+}*/
 
 legend{
 font-weight: bold;
 color: white;
-padding: 5px 10px;
-margin: 0 0 0 23px;
-border-radius: 2px;
+padding: 5px 15px;
+margin: 0 0 0 25px;
+background-color: rgb(0, 128, 128);
+/*border-radius: 2px;
 border-radius: 2px;
 border-radius: 2px;
 border: 1px solid white;
-background-color: rgb(0, 128, 128);
 box-shadow: 3px 3px 15px rgba(0, 128, 128);
 box-shadow: 3px 3px 15px rgba(0, 128, 128);
-box-shadow: 3px 3px 15px rgba(0, 128, 128);
+box-shadow: 3px 3px 15px rgba(0, 128, 128);*/
 }
 
 #div0{
-clear:both;
-margin:10% 0% 3% 43.40%;
-background-position:center;
+color: grey;
+clear: both;
+padding-top: 23px;
 }
 
 #link_facebook{
@@ -121,8 +133,8 @@ color: rgb(0, 0, 255);
 font-size: 0px;
 font-family: facebook letter faces;
 text-decoration: none;
-background: rgb(0, 0, 255) url('../gambar/linkfb1.png') center no-repeat;
-background-size: 10px 20px;
+background: rgb(0, 128, 128) url('../gambar/new/linkfb1.png') center no-repeat;
+background-size: 10px 18px;
 /*
 background-position: 25px 12px;
 transition: 1s;
@@ -142,7 +154,7 @@ color: rgb(0,128,255);
 font-weight:bold;
 font-size: 0px;
 text-decoration: none;
-background: rgb(0,128,255) url('../gambar/linktwt1.png') center no-repeat;
+background: rgb(0, 128, 128) url('../gambar/new/linktwt1.png') center no-repeat;
 background-size: 18px 18px;
 /*
 transition: 1s;
@@ -162,8 +174,8 @@ color:rgb(128, 0, 128);
 font-weight:bold;
 font-size: 0px;
 text-decoration: none;
-background: rgb(128, 0, 128) url('../gambar/linkig1.png') center no-repeat;
-background-size: 23px 23px;
+background: rgb(0, 128, 128) url('../gambar/new/linkig1.png') center no-repeat;
+background-size: 18px 18px;
 /*
 transition: 1s;
 border-top-right-radius: 1vmin;
@@ -182,8 +194,8 @@ color:rgb(128, 0, 128);
 font-weight:bold;
 font-size: 0px;
 text-decoration: none;
-background: rgb(237, 28, 36) url('../gambar/linkgo1.png') center no-repeat;
-background-size: 23px 16px;
+background: rgb(0, 128, 128) url('../gambar/new/linkgo1.png') center no-repeat;
+background-size: 25px 18px;
 /*
 transition: 1s;
 border-top-right-radius: 1vmin;
@@ -195,4 +207,113 @@ border-radius: 2vmax;
 border-color: black;
 
 padding: 20px 20px;
+}
+
+#copy{
+  padding: 3px 0 3px 0;
+  background-color: rgb(0, 128, 128);
+  color: white;
+}
+
+#png1{
+  /*opacity: 0.5;*/
+  position: absolute;
+  top: 35px;
+  left: 37.37%;
+  width: 50px;
+  height: 50px;
+  /*transition: opacity 150ms;
+  transition-property: opacity;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+  transition-delay: 0s;*/
+}
+
+/*#png1:hover{
+  opacity: 1;
+}*/
+
+h1{
+  top: 20px;
+  bottom:0;
+  margin: 0px 0 0 0px;
+  position:relative;
+  font-family:channel;
+}
+
+h4{
+  position: absolute;
+  top: 28px;
+  left: 58.38%;
+}
+
+#di{
+  display: inline-block;
+  color: black;
+}
+
+#di:hover{
+  color: grey;
+}
+
+#setting {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    z-index: 101;
+}
+
+#setting{
+text-decoration: none;
+background: url('../gambar/new/sett.png') center no-repeat;
+background-size: 38px 38px;
+/*
+transition: 1s;
+border-top-right-radius: 1vmin;
+border-bottom-right-radius: 1vmin;
+
+border-width: 0px;
+border-radius: 2vmax;*/
+padding: 20px 20px;
+}
+
+#setting:hover{
+  opacity: 0.5;
+  background-color: #CCCCCC;
+}
+
+#list{
+  text-decoration: none;
+  background: url('../gambar/new/read.png') center no-repeat;
+  background-size: 38px 38px;
+  /*
+  transition: 1s;
+  border-top-right-radius: 1vmin;
+  border-bottom-right-radius: 1vmin;
+
+  border-width: 0px;
+  border-radius: 2vmax;*/
+  padding: 20px 20px;
+}
+
+#list:hover{
+  opacity: 0.5;
+  background-color: #CCCCCC;
+}
+
+#list {
+    position:absolute;
+    top: 25px;
+    right:92%;
+    z-index: 101;
+}
+
+input[type="submit"]{
+  text-align:center;
+  cursor:pointer;
+  outline:none;
+  padding:3px 3px;
+  font-weight:bold;
+  font-size:15px;
+  border-radius:1vmax;
 }

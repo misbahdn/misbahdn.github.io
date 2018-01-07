@@ -2,13 +2,29 @@
 <!-- misbahhdn -->
 <html>
     <head>
-        <title> iBEH-Kontak KodingTKJ1 </title>
+        <title> web-misbahdn.github.io-Kontak </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style1.css">
     </head>
 
     <body>
+        <!-- bagian awal, isinya tag heading -->
+        <div id="div_head">
+          <div id="img">
+            <img id="png1" src="../gambar/fix.png" title="http://misbahdn.github.io">
+          </div>
+          <div>
+            <a href="../subfiles/Setting.html" id="list" title="Menu" ></a>
+          </div>
+          <div>
+            <a href="../subfiles/Setting.html" id="setting" title="Setting" ></a>
+          </div>
 
+          <div id="di" title="http://misbahdn.github.io">
+            <h4>.github.io</h4>
+            <h1>misbahdn</h1>
+          </div>
+        </div>
         <!-- menu website -->
         <div id="div_menu">
             <br>
@@ -16,89 +32,138 @@
             <a href="../subfiles/kontak.html" class="menu">Kontak</a>
             <a href="../subfiles/member.html" class="menu">Member</a>
         </div>
-
-        <!-- bagian awal, isinya tag heading -->
-        <div id="div_head">
-            <h1> Kontak Koding TKJ1 </h1>
-            <h2 id="head"> Tutorial offline untuk belajar <span>membuat website</span> </h2>
-        </div>
-
+        <hr style="color:#CCCCCC;">
+        <h2>Kontak</h2>
         <!-- membuat form -->
         <form>
-			  <div style="color:white;margin:0 0 0% 0;"><br>
-				<fieldset style="padding:23px 23px 50px 23px;border-color:white;border-radius:8px 8px 0px 0px;background:rgba(0, 128, 128, 0.5);">
-                    <legend>Nama & Pesan</legend>
-                    <br>
-                    <tabel>
-                        <tr>
-                            <td>Nama</td>
-                            <td>:</td>
-                            <td><input type="text" name="nm_siswa" placeholder="Nama user" class="user"></td>
-                        </tr>
-                        <br><br>
-                        <tr>
-                            <td>Pesan</td>
-                            <td>:</td>
-                            <td>
-                            <textarea name="alamat" placeholder="Pesan user..." class="user" style="float:right;margin:0 82.75% 0 0;"></textarea>
-                            </td>
-                        </tr>
-                    </tabel>
-                </fieldset><br>
+			  <div id="div-field" style="color:white;">
+				  <!--<fieldset id="field">
+            <legend>Nama & Pesan</legend>
+              <tabel>
+                <tr>
+                  <td>Nama :</td>
+                  <td><input type="text" name="nm_siswa" placeholder="Nama" class="user"></td>
+                </tr>
+                <br>
+                <tr>
+                  <td>Pesan :</td>
+                  <td><textarea name="alamat" placeholder="Pesan" class="user"></textarea></td>
+                </tr>
+              </tabel>
+          </fieldset>-->
+          <fieldset id="field">
+		        <legend><b>Input</b> - <em><b>Data</b></em></legend>
+		          <table>
+        				<tr>
+        					<td>-Nomor Induk Siswa (NIS)</td>
+        					<td>:</td>
+        					<td><input type="text" name="nis" placeholder="Nis"></td>
+        				</tr>
+
+        				<tr>
+        					<td>-Nama Siswa</td>
+        					<td>:</td>
+        					<td><input type="text" name="nm_siswa" placeholder="Nama"></td>
+        				</tr>
+
+        				<tr>
+        					<td>-Tempat Lahir</td>
+        					<td>:</td>
+        					<td><input type="text" name="tmpt_lahir" placeholder="Tempat Lahir"></td>
+        				</tr>
+
+        				<tr>
+        					<td>-Tanggal Lahir</td>
+        					<td>:</td>
+        					<td><input type="date" name="tgl_lahir" placeholder="Tgl Lahir"></td>
+        				</tr>
+
+        				<tr>
+        					<td>-Jenis Kelamin</td>
+        					<td>:</td>
+        					<td>
+        							<select name="jkel">
+        							<optgroup label="Pilih :">
+        								<option>Laki-laki</option>
+        								<option>Perempuan</option>
+        							</optgroup>
+        						</select>
+        					</td>
+        				</tr>
+
+        				<tr>
+        					<td>-Alamat</td>
+        					<td>:</td>
+        					<td>
+        						<textarea name="alamat" placeholder="Alamat..."></textarea>
+        					</td>
+        				</tr>
+
+        				<tr>
+        					<td>-Agama</td>
+        					<td>:</td>
+        					<td>
+        						<select name="agama">
+        							<optgroup label="Pilih :">
+        								<option>Islam</option>
+        								<option>Kristen</option>
+        								<option>Katholik</option>
+        								<option>Hindu</option>
+        								<option>Budha</option>
+        							</optgroup>
+        						</select>
+        					</td>
+        				</tr>
+
+        				<tr>
+        					<td>-No.Tlpn/Hp</td>
+        					<td>:</td>
+        					<td><input type="text" name="nohp" placeholder="No.Tlp/Hp"></td>
+        					<br>
+        				</tr>
+		          </table>
+	        </fieldset>
 			  </div>
-			  <div style="margin:0 0px 0% 0px;color:white;">
-				<fieldset style="padding:23px 23px 23px 23px;border-color:white;border-radius:8px 8px 0px 0px;margin:0 20px 0 20px;background:rgba(0, 128, 128, 0.5);">
-					<legend>Pilihan - <em>Data</em></legend>
-					<label>Tgl : </label><input name="startdate" min="2000-01-01" max="3000-01-01" type="date">
-					<input type="color">
-					<br><br>
-					<label>Agama : </label>
-					<select>
-						<optgroup label="Agama :">
-							<option value="islam">Islam</option>
-							<option value="kristen">Kristen</option>
-							<option value="katolik">Katolik</option>
-							<option value="hindu">Hindu</option>
-							<option value="budha">Budha</option>
-						</optgruop>
-					</select>
-					<br><br>
-					<label>Hobi :</label><br>
-					<input type="checkbox" name="hobi_user" value="0" checked> Programing <br>
-					<input type="checkbox" name="hobi_user" value="1"> Desain grafis <br>
-					<input type="checkbox" name="hobi_user" value="2"> Mobile programing
-					<br><br>
-					<label>Jenis kelamin :</label>
-					<input type="radio" name="gender" value="0" checked>Laki-laki
-					<input type="radio" name="gender" value="1">Perempuan
-					<br><br>
-					<label>Mata pelajaran : </label>
-					<select>
-						<optgroup label="Frontend">
-							<option value="html">HTML</option>
-							<option value="css">CSS</option>
-							<option value="c++">C++</option>
-						</optgruop>
-						<optgroup label="Backend">
-							<option value="php">PHP</option>
-							<option value="mysql">MySQL</option>
-							<option value="db">Database</option>
-						</optgroup>
-					</select>
-                    <br>
-                </fieldset>
-                <fieldset style="border-radius:0 0 8px 8px;border-color:white;border-top:0px;background:rgba(0, 128, 128, 1);padding:23px 23px;">
-                    <div style="text-align:right;">
-                        <input type="submit" value="kirim" style="text-align:center;cursor:pointer;outline:none;padding:5px 5px;font-weight:bold;font-size:15px;border-radius:1vmax;">
-                    </div>
-                </fieldset>
-			</div>
+  			<div style="margin:0 0px 0% 0px;color:white;">
+  				<fieldset id="field1">
+  					<legend>Pilihan - <em>Data</em></legend>
+  					<!--<label>Tgl : </label><input name="startdate" min="2000-01-01" max="3000-01-01" type="date">-->
+  					<input type="color" style="float:right;">
+  					<br><br>
+  					<label>Hobi :</label><br>
+  					<input type="checkbox" name="hobi_user" value="0" checked> Programming <br>
+  					<input type="checkbox" name="hobi_user" value="1"> Desain Grafis <br>
+  					<input type="checkbox" name="hobi_user" value="2"> Mobile Programming
+  					<br><br>
+  					<label>Jenis kelamin :</label>
+  					<input type="radio" name="gender" value="0" checked>Laki-laki
+  					<input type="radio" name="gender" value="1">Perempuan
+  					<br><br>
+  					<label>Mata pelajaran : </label>
+  					<select>
+  						<optgroup label="Frontend">
+  							<option value="html">HTML</option>
+  							<option value="css">CSS</option>
+  							<option value="c++">C++</option>
+  						</optgruop>
+  						<optgroup label="Backend">
+  							<option value="php">PHP</option>
+  							<option value="mysql">MySQL</option>
+  							<option value="db">Database</option>
+  						</optgroup>
+  					</select>
+            <br>
+          </fieldset>
+          <fieldset>
+            <div style="text-align:right;">
+              <input type="submit" value="kirim">
+            </div>
+          </fieldset>
+  			</div>
         </form>
-
         <br><br>
-
         <!-- membuat table -->
-        <table border="2" style="border-color:white;border-radius:1vmin;">
+        <table border="2" id="table">
             <caption> <b>DAFTAR SISWA/I Koding TKJ1</b> </caption>
             <tr>
                 <th>NIS</th>
@@ -113,7 +178,7 @@
             </tr>
             <tr>
                 <td>101112</td>
-                <td>Lilis</td>
+                <td>Dafi</td>
                 <td>Lampung</td>
                 <td>18-08-2000</td>
                 <td>Perempuan</td>
@@ -135,7 +200,7 @@
             </tr>
             <tr>
                 <td>101112</td>
-                <td>Yanti</td>
+                <td>Jihan</td>
                 <td>Jakarta</td>
                 <td>08-12-2000</td>
                 <td>Perempuan</td>
@@ -146,7 +211,7 @@
             </tr>
             <tr>
                 <td>101112</td>
-                <td>Zufar</td>
+                <td>Ahza</td>
                 <td>Bandung</td>
                 <td>25-07-2000</td>
                 <td>Laki-laki</td>
@@ -158,6 +223,7 @@
         </table>
 
         <!-- list pada html -->
+        <!--
         <ul class="list">
             <li>misbah</li>
             <li>zufar</li>
@@ -185,16 +251,19 @@
             <dt>yanti</dt>
             <dd>user 4rd koding TKJ1</dd>
         </dl>
-        
-		<div id="div0">
-            <a href="https://facebook.com" target="_blank" id="link_facebook"></a>&nbsp;
-            <a href="https://twitter.com" target="_blank" id="link_twitter"></a>&nbsp;
-            <a href="https://instagram.com" target="_blank" id="link_instagram"></a>&nbsp;
-			<a href="https://gmail.com" target="_blank" id="link_gmail"></a>
+        -->
+    		<div id="div0">
+            <p>Like us :</p>
+            <a href="https://facebook.com" target="_blank" id="link_facebook"></a>
+            <a href="https://twitter.com" target="_blank" id="link_twitter"></a>
+            <a href="https://instagram.com" target="_blank" id="link_instagram"></a>
+      			<a href="https://gmail.com" target="_blank" id="link_gmail"></a>
+            <hr style="margin:28px 28% 28px 28%;">
         </div>
 
-            <hr style="margin:0% 33% 0 33%;clear:both">
-            <p style="color:white;text-align:center">&copy;2017&trade;<br><br>Koding TKJ1</p>
-            <p style="color:white;text-align:center">(Teknik Komputer Jaringan)</p>
+        <div id="copy">
+          <p>&copy;2018</p>
+          <p>(Teknik Komputer Jaringan)</p>
+        </div>
     </body>
 </html>

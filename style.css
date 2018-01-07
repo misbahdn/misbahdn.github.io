@@ -8,88 +8,50 @@ background-position: top;
 
 /*-- home --*/
     body{
-        background: rgb(5, 55, 55) url('gambar/logo2.png') no-repeat fixed center;
-        font-family: sansation;
+        /*background: rgb(5, 55, 55) url('gambar/logo2.png') no-repeat fixed center;*/
+        font-family: calibri;
         text-align: center;
-        margin: 0 0px 0 0px;
-        clear: both;
+        margin: 0 0 0 0;
+    }
+
+    h1{
+      top: 20px;
+      bottom:0;
+      margin: 0px 0 0 0px;
+      position:relative;
+      font-family:channel;
+    }
+
+    h4{
+      position: absolute;
+      top: 28px;
+      left: 58.38%;
+    }
+
+    #di{
+      display: inline-block;
+      color: black;
+    }
+
+    #di:hover{
+      color: grey;
     }
 
     #div_head{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        background-color: navy;
-         
-    }
-    #div_menu{
-        background:rgba(255, 255, 255, 0.5);padding:10px;
-    
-    }
-    .menu{
-        color: white;
-    }
-    #konten {
-        margin-top: 200px;
-    }
-    h1{
-        color: red;
-        text-align: center;
-        font-family: supercell-magic;
-        font-weight: bold;
-    }
-
-    #head{
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        line-height: 3px;
-        margin: 0 0 3% 0;
-        font-family: supercell-magic;
-        font-weight: bold;
-    }
-
-    #text_short{
-        color: white;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: sansation;
-    }
-
-    #text_long{
-        text-align: justify;
-        text-indent: 50px;
-        letter-spacing:3px;
-        line-height: 40px;
-        font-size: 20px;
-        color: white;
-        clear: both;
-        float: left;
-
-        /*margin:top right bottom left;*/
-        margin: 0 0px 0% 20px;
-        /*-dimensi elemen-*/
-        width: 70%;
+      padding-bottom: 50px;
     }
 
     #more{
-        color: white;
-        clear: both;
-        font-weight: bold;
+        color: rgb(0, 128, 128);
         font-size: 11pt;
-        font-family: sansation;
-        margin: 0px 0px 8% 0px;
-
-        border-width: 2px;
+        border-width: 1px;
         border-style: solid ;
         border-radius: 3vw;
         /*box-shadow: hor ver blur spread color*/
-        box-shadow: 10px 5px 35px 1px black;
-        border-color: white;
+        box-shadow: px px 23px 1px black;
+        border-color: rgb(0, 128, 128);
         text-decoration: none;
-
         padding: 8px 8px;
-
     }
     /*
     #more:link{
@@ -101,18 +63,16 @@ background-position: top;
     }
     */
     #more:hover{
-        clear: both;
-        background: white;
-        color: rgb(5, 55, 55);
-        transition: background 1s, color 1s;
+        color: white;
+        background-color: rgb(0, 128, 128);
+        transition: background 0.5s;
     }
 
     #more:active{
-        background: rgba(255, 255, 255, 0.5);
-        color: red;
-        text-decoration: underline;
+        color: white;
+        text-decoration:  underline;
         padding: 7px 7px;
-        transition: background 1s;
+        transition: background 0.5s, text-decoration 1s;
     }
 
     /*menu website*/
@@ -172,88 +132,92 @@ background-position: top;
 
 /*-- menu link --*/
     #div0{
-        text-align: left;
-        clear: both;
-		background-position:center;
+    color: grey;
+    padding-top: 20px;
     }
 
     #link_facebook{
-        color: rgb(0, 0, 255);
-        font-weight:bold;
-        font-size: 33px;
-        font-family: facebook letter faces;
-        text-decoration: none;
-        background: rgb(0,0,255) url('gambar/linkfb1.png') center no-repeat;
-        background-size: 0px 23px;
-        transition: 1s;
-		border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
+    color: rgb(0, 0, 255);
+    /*font-weight:bold;*/
+    font-size: 0px;
+    font-family: facebook letter faces;
+    text-decoration: none;
+    background: rgb(0, 128, 128) url('gambar/new/linkfb1.png') center no-repeat;
+    background-size: 10px 18px;
+    /*
+    background-position: 25px 12px;
+    transition: 1s;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+    */
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2vmax;
+    border-color: black;
 
-        border-width: 0px;
-        border-style: solid;
-        /*border-radius: 1vmin;*/
-        border-color: black;
-
-        padding: 8px 12px;
+    padding: 20px 20px;
     }
 
     #link_twitter{
-        color: rgb(0,128,255);
-        font-weight:bold;
-        font-size: 33px;
-        text-decoration: none;
-        background: rgb(0,128,255) url('gambar/linktwt1.png') center no-repeat;
-        background-size: 0px 23px;
-        transition: 1s;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
+    color: rgb(0,128,255);
+    font-weight:bold;
+    font-size: 0px;
+    text-decoration: none;
+    background: rgb(0, 128, 128) url('gambar/new/linktwt1.png') center no-repeat;
+    background-size: 18px 18px;
+    /*
+    transition: 1s;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+    */
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2vmax;
+    border-color: black;
 
-        border-width: 0px;
-        border-style: solid;
-        /*border-radius: 1vmin;*/
-        border-color: black;
-
-        padding:8px 12px;
+    padding: 20px 20px;
     }
 
     #link_instagram{
-        color:rgb(128, 0, 128);
-        font-weight:bold;
-        font-size: 33px;
-        text-decoration: none;
-        background: rgb(128, 0, 128) url('gambar/linkig1.png') center no-repeat;
-        background-size: 0px 23px;
-        transition: 1s;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
+    color:rgb(128, 0, 128);
+    font-weight:bold;
+    font-size: 0px;
+    text-decoration: none;
+    background: rgb(0, 128, 128) url('gambar/new/linkig1.png') center no-repeat;
+    background-size: 18px 18px;
+    /*
+    transition: 1s;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+    */
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2vmax;
+    border-color: black;
 
-        border-width: 0px;
-        border-style: solid;
-        /*border-radius: 1vmin;*/
-        border-color: black;
-
-        padding: 8px 12px;
+    padding: 20px 20px;
     }
 
-	  #link_gmail{
-        color:rgb(128, 0, 128);
-        font-weight:bold;
-        font-size: 33px;
-        text-decoration: none;
-        background: rgb(237, 28, 36) url('gambar/linkgo1.png') center no-repeat;
-        background-size: 0px 18px;
-        transition: 1s;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
+    #link_gmail{
+    color:rgb(128, 0, 128);
+    font-weight:bold;
+    font-size: 0px;
+    text-decoration: none;
+    background: rgb(0, 128, 128) url('gambar/new/linkgo1.png') center no-repeat;
+    background-size: 25px 18px;
+    /*
+    transition: 1s;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+    */
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2vmax;
+    border-color: black;
 
-        border-width: 0px;
-        border-style: solid;
-        /*border-radius: 1vmin;*/
-        border-color: black;
-
-        padding: 8px 12px;
+    padding: 20px 20px;
     }
-
+    /*
     #link_facebook:hover{
         color: white;
         font-weight:bold;
@@ -327,18 +291,94 @@ background-position: top;
 
         padding: 8px 45px;
     }
-
-    /*
-    #div1{
-        float: center;
-    }
     */
+
     #png{
         /*transform: rotateZ(0deg);*/
         transition: transform 1s;
-        clear: both;
+        text-align: center;
     }
 
     #png:hover{
-        transform: rotateZ(-18deg);
-	}
+        transform: rotateY(-360deg);
+	  }
+
+    #png1{
+      /*opacity: 0.5;*/
+      position: absolute;
+      top: 35px;
+      left: 37.37%;
+      width: 50px;
+      height: 50px;
+      /*transition: opacity 150ms;
+      transition-property: opacity;
+      transition-duration: 150ms;
+      transition-timing-function: ease;
+      transition-delay: 0s;*/
+    }
+
+    /*#png1:hover{
+      opacity: 1;
+    }*/
+
+    #copy{
+      padding: 3px 0 3px 0;
+      background-color: rgb(0, 128, 128);
+      color: white;
+    }
+
+    #div1{
+      color:grey;
+    }
+
+    #setting {
+        position: absolute;
+        top: 25px;
+        right: 50px;
+        z-index: 101;
+    }
+
+    #setting{
+    text-decoration: none;
+    background: url('gambar/new/sett.png') center no-repeat;
+    background-size: 38px 38px;
+    /*
+    transition: 1s;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+
+    border-width: 0px;
+    border-radius: 2vmax;*/
+    padding: 20px 20px;
+    }
+
+    #setting:hover{
+      opacity: 0.5;
+      background-color: #CCCCCC;
+    }
+
+    #list{
+      text-decoration: none;
+      background: url('gambar/new/read.png') center no-repeat;
+      background-size: 38px 38px;
+      /*
+      transition: 1s;
+      border-top-right-radius: 1vmin;
+      border-bottom-right-radius: 1vmin;
+
+      border-width: 0px;
+      border-radius: 2vmax;*/
+      padding: 20px 20px;
+    }
+
+    #list:hover{
+      opacity: 0.5;
+      background-color: #CCCCCC;
+    }
+
+    #list {
+        position:absolute;
+        top: 25px;
+        right:92%;
+        z-index: 101;
+    }
