@@ -7,16 +7,19 @@ margin: 0 0px 0 0px;
 }
 
 #div_head{
+background: white;
+width: 100%;
+position: fixed;
 padding-bottom: 0px;
 }
 
 /*menu website*/
 #div_menu{
-  padding-bottom:0px;
+  padding-top: 8%;
 }
 .menu{
-opacity: 0.5;
-color:rgb(0, 128, 128);
+text-decoration: none;
+color:rgba(0, 128, 128, 0.5);
 font-weight: bold;
 /*border-width: 2px;
 border-style: solid;
@@ -38,9 +41,10 @@ color: rgb(0, 128, 128);
 
 /*kondisi hover-mouse berada diatasnya*/
 .menu:hover{
-opacity: 1;
+text-decoration: underline;
+color:rgb(0, 128, 128);
 background: white;
-transition: background 1s, color 1s;
+transition: background 1s, color 0.5s;
 }
 
 /*sedang diklik*/
@@ -48,15 +52,6 @@ transition: background 1s, color 1s;
 color: rgb(0, 128, 128);
 transition: background 1s, color 1s;
 }*/
-
-.user{
-/*
-border-color: black;
-border-radius: 1vmin;
-border-width: 1px;
-*/
-border: hidden;
-}
 
 #div-field{
   float: left;
@@ -66,8 +61,8 @@ border: hidden;
 
 #field{
   border: 0;
-  padding:10px 250px 60px 23px;
-  border-radius:18px 0px 0px 18px;
+  padding:10px 223px 60px 23px;
+  border-radius:23px 0px 0px 0px;
   background: rgba(0, 128, 128, 0.9);
   margin: 0px 20px 0px 20px;
   text-align: left;
@@ -75,8 +70,8 @@ border: hidden;
 
 #field1{
   border: 0;
-  padding:23px 23px 26px 23px;
-  border-radius:0px 18px 0px 0px;
+  padding:0px 23px 26px 23px;
+  border-radius:0px 0px 0px 0px;
   background: rgba(0, 128, 128, 0.9);
   margin: 50px 20px 0px 20px;
   text-align: left;
@@ -85,8 +80,8 @@ border: hidden;
 fieldset{
   border: 0;
   border-top:0px;
-  border-radius:0 0 18px 0px;
-  padding:23px 23px;
+  border-radius:0 0 23px 0px;
+  padding:24px 23px;
   margin: 0 20px 0 492px;
   background:rgb(0, 128, 128);
 }
@@ -248,6 +243,7 @@ h4{
 }
 
 #di{
+  cursor: pointer;
   display: inline-block;
   color: black;
 }
@@ -304,7 +300,7 @@ padding: 20px 20px;
 #list {
     position:absolute;
     top: 25px;
-    right:92%;
+    right:91%;
     z-index: 101;
 }
 
@@ -316,4 +312,13 @@ input[type="submit"]{
   font-weight:bold;
   font-size:15px;
   border-radius:1vmax;
+}
+
+#contact{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.p{
+  font-size: 86px;
 }

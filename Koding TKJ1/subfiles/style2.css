@@ -6,17 +6,20 @@ margin: 0 0px 0 0px;
 }
 
 #div_head{
+background: white;
+width: 100%;
+position: fixed;
 padding-bottom: 0px;
 }
 
 
 /*menu website*/
 #div_menu{
-  padding-bottom:0px;
+  padding-top:8%;
 }
 .menu{
-opacity: 0.5;
-color:rgb(0, 128, 128);
+text-decoration: none;
+color:rgba(0, 128, 128, 0.5);
 font-weight: bold;
 /*border-width: 2px;
 border-style: solid;
@@ -32,15 +35,15 @@ padding: 8px 8px;*/
 /*kondisi setelah di kunjungi*/
 /*
 .menu:visited{
-opacity: 1;
-color: rgb(0, 128, 128);
-}*/
-
+color:black;
+}
+*/
 /*kondisi hover-mouse berada diatasnya*/
 .menu:hover{
-opacity: 1;
+text-decoration: underline;
+color:rgb(0, 128, 128);
 background: white;
-transition: background 1s, color 1s;
+transition: background 1s, color 0.5s;
 }
 
 /*sedang diklik
@@ -185,6 +188,7 @@ h4{
 }
 
 #di{
+  cursor:pointer;
   display: inline-block;
   color: black;
 }
@@ -241,10 +245,19 @@ padding: 20px 20px;
 #list {
     position:absolute;
     top: 25px;
-    right:92%;
+    right:91%;
     z-index: 101;
 }
 
 #cap{
   font-family: calibri;
+}
+
+#member{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.p{
+  font-size: 86px;
 }
