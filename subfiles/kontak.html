@@ -2,7 +2,7 @@
 <!-- misbahhdn -->
 <html>
     <head>
-        <title> web-misbahdn.github.io-Kontak </title>
+        <title> web-mmisbahdn/Kontak </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style1.css">
     </head>
@@ -24,16 +24,15 @@
             <h4>.github.io</h4>
             <h1>misbahdn</h1>
           </div>
+          <hr style="color:#FFFFFF;border-width:2px;">
         </div>
         <!-- menu website -->
         <div id="div_menu">
-            <br>
-            <a href="../index.html" class="menu">Home</a>
-            <a href="../subfiles/kontak.html" class="menu">Kontak</a>
-            <a href="../subfiles/member.html" class="menu">Member</a>
+          <a href="../index.html" class="menu">Home</a>&nbsp;
+          <a href="../subfiles/kontak.html" class="menu">Kontak</a>&nbsp;
+          <a href="../subfiles/member.html" class="menu">Member</a>
         </div>
-        <hr style="color:#CCCCCC;">
-        <h2>Kontak</h2>
+        <p id="contact">Kontak</p>
         <!-- membuat form -->
         <form>
 			  <div id="div-field" style="color:white;">
@@ -54,32 +53,32 @@
           <fieldset id="field">
 		        <legend><b>Input</b> - <em><b>Data</b></em></legend>
 		          <table>
-        				<tr>
-        					<td>-Nomor Induk Siswa (NIS)</td>
-        					<td>:</td>
-        					<td><input type="text" name="nis" placeholder="Nis"></td>
-        				</tr>
+          			<tr>
+            			<td>Nomor Induk Siswa (NIS)</td>
+            			<td>:</td>
+            			<td><input type="text" name="nis" placeholder="Nis"></td>
+          			</tr>
 
         				<tr>
-        					<td>-Nama Siswa</td>
+        					<td>Nama Siswa</td>
         					<td>:</td>
         					<td><input type="text" name="nm_siswa" placeholder="Nama"></td>
         				</tr>
 
         				<tr>
-        					<td>-Tempat Lahir</td>
+        					<td>Tempat Lahir</td>
         					<td>:</td>
         					<td><input type="text" name="tmpt_lahir" placeholder="Tempat Lahir"></td>
         				</tr>
 
         				<tr>
-        					<td>-Tanggal Lahir</td>
+        					<td>Tanggal Lahir</td>
         					<td>:</td>
         					<td><input type="date" name="tgl_lahir" placeholder="Tgl Lahir"></td>
         				</tr>
-
+                <!--
         				<tr>
-        					<td>-Jenis Kelamin</td>
+        					<td>Jenis Kelamin</td>
         					<td>:</td>
         					<td>
         							<select name="jkel">
@@ -90,9 +89,9 @@
         						</select>
         					</td>
         				</tr>
-
+                -->
         				<tr>
-        					<td>-Alamat</td>
+        					<td>Alamat</td>
         					<td>:</td>
         					<td>
         						<textarea name="alamat" placeholder="Alamat..."></textarea>
@@ -100,7 +99,7 @@
         				</tr>
 
         				<tr>
-        					<td>-Agama</td>
+        					<td>Agama</td>
         					<td>:</td>
         					<td>
         						<select name="agama">
@@ -116,7 +115,7 @@
         				</tr>
 
         				<tr>
-        					<td>-No.Tlpn/Hp</td>
+        					<td>No.Tlpn/Hp</td>
         					<td>:</td>
         					<td><input type="text" name="nohp" placeholder="No.Tlp/Hp"></td>
         					<br>
@@ -131,9 +130,10 @@
   					<input type="color" style="float:right;">
   					<br><br>
   					<label>Hobi :</label><br>
-  					<input type="checkbox" name="hobi_user" value="0" checked> Programming <br>
-  					<input type="checkbox" name="hobi_user" value="1"> Desain Grafis <br>
-  					<input type="checkbox" name="hobi_user" value="2"> Mobile Programming
+            <input type="checkbox" name="hobi_user" value="0" checked> Kaligrafi <br>
+  					<input type="checkbox" name="hobi_user" value="1"> Programming <br>
+  					<input type="checkbox" name="hobi_user" value="2"> Desain Grafis <br>
+  					<input type="checkbox" name="hobi_user" value="3"> Mobile Programming
   					<br><br>
   					<label>Jenis kelamin :</label>
   					<input type="radio" name="gender" value="0" checked>Laki-laki
@@ -154,7 +154,7 @@
   					</select>
             <br>
           </fieldset>
-          <fieldset>
+          <fieldset id="field2">
             <div style="text-align:right;">
               <input type="submit" value="kirim">
             </div>
@@ -162,7 +162,17 @@
   			</div>
         </form>
         <br><br>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+        <p class="p">.</p>
+
         <!-- membuat table -->
+        <!--
         <table border="2" id="table">
             <caption> <b>DAFTAR SISWA/I Koding TKJ1</b> </caption>
             <tr>
@@ -221,7 +231,7 @@
                 <td>+62896123123333</td>
             </tr>
         </table>
-
+        -->
         <!-- list pada html -->
         <!--
         <ul class="list">
@@ -253,17 +263,16 @@
         </dl>
         -->
     		<div id="div0">
-            <p>Like us :</p>
-            <a href="https://facebook.com" target="_blank" id="link_facebook"></a>
-            <a href="https://twitter.com" target="_blank" id="link_twitter"></a>
-            <a href="https://instagram.com" target="_blank" id="link_instagram"></a>
-      			<a href="https://gmail.com" target="_blank" id="link_gmail"></a>
+            <p>Follow us :</p>
+            <a href="https://facebook.com" target="_blank" id="link_facebook" title="facebook"></a>
+            <a href="https://twitter.com" target="_blank" id="link_twitter" title="Twitter"></a>
+            <a href="https://instagram.com" target="_blank" id="link_instagram" title="Instagram"></a>
+      			<a href="https://gmail.com" target="_blank" id="link_gmail" title="Gmail+"></a>
             <hr style="margin:28px 28% 28px 28%;">
         </div>
 
         <div id="copy">
-          <p>&copy;2018</p>
-          <p>(Teknik Komputer Jaringan)</p>
+          <p>&copy; PemudaIndonesia2018</p>
         </div>
     </body>
 </html>

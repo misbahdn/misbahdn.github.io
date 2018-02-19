@@ -29,6 +29,7 @@ background-position: top;
     }
 
     #di{
+      cursor: pointer;
       display: inline-block;
       color: black;
     }
@@ -38,7 +39,9 @@ background-position: top;
     }
 
     #div_head{
-      padding-bottom: 50px;
+      background:white;
+      width:100%;
+      position: fixed;
     }
 
     #more{
@@ -158,6 +161,11 @@ background-position: top;
     padding: 20px 20px;
     }
 
+    #link_facebook:hover{
+      border-width: 1px;
+      border-color: rgb(0, 188, 188);
+    }
+
     #link_twitter{
     color: rgb(0,128,255);
     font-weight:bold;
@@ -176,6 +184,11 @@ background-position: top;
     border-color: black;
 
     padding: 20px 20px;
+    }
+
+    #link_twitter:hover{
+      border-width: 1px;
+      border-color: rgb(0, 188, 188);
     }
 
     #link_instagram{
@@ -198,6 +211,11 @@ background-position: top;
     padding: 20px 20px;
     }
 
+    #link_instagram:hover{
+      border-width: 1px;
+      border-color: rgb(0, 188, 188);
+    }
+
     #link_gmail{
     color:rgb(128, 0, 128);
     font-weight:bold;
@@ -216,6 +234,11 @@ background-position: top;
     border-color: black;
 
     padding: 20px 20px;
+    }
+
+    #link_gmail:hover{
+      border-width: 1px;
+      border-color: rgb(0, 188, 188);
     }
     /*
     #link_facebook:hover{
@@ -294,6 +317,7 @@ background-position: top;
     */
 
     #png{
+        padding-top: 5%;
         /*transform: rotateZ(0deg);*/
         transition: transform 1s;
         text-align: center;
@@ -379,6 +403,10 @@ background-position: top;
     #list {
         position:absolute;
         top: 25px;
-        right:92%;
+        right:91%;
         z-index: 101;
+    }
+
+    .p{
+      font-size: 86px;
     }
