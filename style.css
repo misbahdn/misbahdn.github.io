@@ -1,25 +1,21 @@
-/*
-background-color: #bbeeff;
-background-image: url("gambar/logo.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: top;
-*/
 
 /*-- home --*/
     body{
-        /*background: rgb(5, 55, 55) url('gambar/logo2.png') no-repeat fixed center;*/
         font-family: calibri;
         text-align: center;
         margin: 0 0 0 0;
+        background: url('gambar/bmx.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    h1{
-      top: 20px;
-      bottom:0;
+    #h1{
+      left: 30px;
+      top: 28px;
+      bottom:0px;
       margin: 0px 0 0 0px;
       position:relative;
-      font-family:channel;
     }
 
     h4{
@@ -39,15 +35,16 @@ background-position: top;
     }
 
     #div_head{
-      background:white;
+      padding: 0 0 50px 0;
+      background:rgba(255,255,255,0.5);
       width:100%;
       position: fixed;
     }
 
     #more{
-        color: rgb(0, 128, 128);
+        color:#cccccc;
         font-size: 11pt;
-        border-width: 1px;
+        border-width: 2px;
         border-style: solid ;
         border-radius: 3vw;
         /*box-shadow: hor ver blur spread color*/
@@ -56,18 +53,11 @@ background-position: top;
         text-decoration: none;
         padding: 8px 8px;
     }
-    /*
-    #more:link{
-        background: rgb(0, 128, 128);
-    }
 
-    #more:visited{
-        background: rgb(5, 55, 55);
-    }
-    */
     #more:hover{
         color: white;
-        background-color: rgb(0, 128, 128);
+        border-color: rgb(0, 188, 188);
+        background-color: rgb(0, 188, 188);
         transition: background 0.5s;
     }
 
@@ -78,41 +68,6 @@ background-position: top;
         transition: background 0.5s, text-decoration 1s;
     }
 
-    /*menu website*/
-    /*
-    #div_menu{
-        text-align: center;
-        background: rgb(0, 128, 128);
-        padding: 10px 0;
-        margin: 0 41% 0 41%;
-        transition: margin 1s, transform 1s;
-    }
-
-    #div_menu:hover{
-        text-align: center;
-        background: rgb(0, 128, 128) fixed;
-        padding: 10px 0;
-        margin: 0 0% 0 0%;
-
-    }
-
-    .menu{
-        color: white;
-        font-weight: bold;
-
-        border-width: 3px;
-        border-style: solid ;
-        border-radius: 1vmin;
-        border-color: white;
-        text-decoration: none;
-
-        padding: 8px 8px;
-    }
-
-    /*kondisi biasa*/
-    /* .menu:link{
-        background: rgb(0, 128, 128);
-    } */
 
     /*kondisi setelah di kunjungi*/
     .menu:visited{
@@ -135,8 +90,8 @@ background-position: top;
 
 /*-- menu link --*/
     #div0{
-    color: grey;
-    padding-top: 20px;
+    color:#cccccc;
+    padding-top: 10px;
     }
 
     #link_facebook{
@@ -147,12 +102,6 @@ background-position: top;
     text-decoration: none;
     background: rgb(0, 128, 128) url('gambar/new/linkfb1.png') center no-repeat;
     background-size: 10px 18px;
-    /*
-    background-position: 25px 12px;
-    transition: 1s;
-    border-top-right-radius: 1vmin;
-    border-bottom-right-radius: 1vmin;
-    */
     border-width: 0px;
     border-style: solid;
     border-radius: 2vmax;
@@ -162,6 +111,20 @@ background-position: top;
     }
 
     #link_facebook:hover{
+      color: rgb(0, 0, 255);
+      /*font-weight:bold;*/
+      font-size: 0px;
+      font-family: facebook letter faces;
+      text-decoration: none;
+      background: rgb(0, 188, 188) url('gambar/new/linkfb11.png') center no-repeat;
+      background-size: 10px 18px;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 2vmax;
+      border-color: black;
+
+      padding: 20px 20px;
+
       border-width: 1px;
       border-color: rgb(0, 188, 188);
     }
@@ -173,11 +136,6 @@ background-position: top;
     text-decoration: none;
     background: rgb(0, 128, 128) url('gambar/new/linktwt1.png') center no-repeat;
     background-size: 18px 18px;
-    /*
-    transition: 1s;
-    border-top-right-radius: 1vmin;
-    border-bottom-right-radius: 1vmin;
-    */
     border-width: 0px;
     border-style: solid;
     border-radius: 2vmax;
@@ -187,6 +145,19 @@ background-position: top;
     }
 
     #link_twitter:hover{
+      color: rgb(0,128,255);
+      font-weight:bold;
+      font-size: 0px;
+      text-decoration: none;
+      background: rgb(0, 188, 188) url('gambar/new/linktwt11.png') center no-repeat;
+      background-size: 18px 18px;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 2vmax;
+      border-color: black;
+
+      padding: 20px 20px;
+
       border-width: 1px;
       border-color: rgb(0, 188, 188);
     }
@@ -198,11 +169,6 @@ background-position: top;
     text-decoration: none;
     background: rgb(0, 128, 128) url('gambar/new/linkig1.png') center no-repeat;
     background-size: 18px 18px;
-    /*
-    transition: 1s;
-    border-top-right-radius: 1vmin;
-    border-bottom-right-radius: 1vmin;
-    */
     border-width: 0px;
     border-style: solid;
     border-radius: 2vmax;
@@ -212,6 +178,19 @@ background-position: top;
     }
 
     #link_instagram:hover{
+      color:rgb(128, 0, 128);
+      font-weight:bold;
+      font-size: 0px;
+      text-decoration: none;
+      background: rgb(0, 188, 188) url('gambar/new/linkig11.png') center no-repeat;
+      background-size: 18px 18px;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 2vmax;
+      border-color: black;
+
+      padding: 20px 20px;
+
       border-width: 1px;
       border-color: rgb(0, 188, 188);
     }
@@ -223,11 +202,6 @@ background-position: top;
     text-decoration: none;
     background: rgb(0, 128, 128) url('gambar/new/linkgo1.png') center no-repeat;
     background-size: 25px 18px;
-    /*
-    transition: 1s;
-    border-top-right-radius: 1vmin;
-    border-bottom-right-radius: 1vmin;
-    */
     border-width: 0px;
     border-style: solid;
     border-radius: 2vmax;
@@ -237,87 +211,25 @@ background-position: top;
     }
 
     #link_gmail:hover{
+      color:rgb(128, 0, 128);
+      font-weight:bold;
+      font-size: 0px;
+      text-decoration: none;
+      background: rgb(0, 188, 188) url('gambar/new/linkgo11.png') center no-repeat;
+      background-size: 25px 18px;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 2vmax;
+      border-color: black;
+
+      padding: 20px 20px;
+
       border-width: 1px;
       border-color: rgb(0, 188, 188);
     }
-    /*
-    #link_facebook:hover{
-        color: white;
-        font-weight:bold;
-        font-size: 33px;
-        font-family: facebook letter faces;
-        text-decoration: none;
-        background: rgb(0,0,255) url('gambar/linkfb1.png') center no-repeat;
-        background-size: 13px 23px;
-        transition: 1s;
-
-        border-width: 0px;
-        border-style: solid;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
-        border-color: white;
-
-        padding: 8px 45px;
-    }
-
-    #link_twitter:hover{
-        color: white;
-        font-weight:bold;
-        font-size: 33px;
-        font-family: velocity;
-        text-decoration: none;
-        background: rgb(0,128,255) url('gambar/linktwt1.png') center no-repeat;
-        background-size: 23px 23px;
-        transition: 1s;
-
-        border-width: 0px;
-        border-style: solid;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
-        border-color: white;
-
-        padding: 8px 45px;
-    }
-
-    #link_instagram:hover{
-        color: white;
-        font-weight:bold;
-        font-size: 33px;
-        text-decoration: none;
-        background: rgb(128, 0, 128) url('gambar/linkig1.png') no-repeat center;
-        background-size: 23px 23px;
-        transition: 1s;
-
-        border-width: 0px;
-        border-style: solid;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
-        border-color: white;
-
-        padding: 8px 45px;
-    }
-
-	#link_gmail:hover{
-        color: white;
-        font-weight:bold;
-        font-size: 33px;
-        text-decoration: none;
-        background: rgb(237, 28, 36) url('gambar/linkgo1.png') no-repeat center;
-        background-size: 23px 18px;
-        transition: 1s;
-
-        border-width: 0px;
-        border-style: solid;
-        border-top-right-radius: 1vmin;
-        border-bottom-right-radius: 1vmin;
-        border-color: white;
-
-        padding: 8px 45px;
-    }
-    */
 
     #png{
-        padding-top: 5%;
+        padding-top: 15%;
         /*transform: rotateZ(0deg);*/
         transition: transform 1s;
         text-align: center;
@@ -334,77 +246,62 @@ background-position: top;
       left: 37.37%;
       width: 50px;
       height: 50px;
-      /*transition: opacity 150ms;
-      transition-property: opacity;
-      transition-duration: 150ms;
-      transition-timing-function: ease;
-      transition-delay: 0s;*/
     }
 
-    /*#png1:hover{
-      opacity: 1;
-    }*/
+
 
     #copy{
-      padding: 3px 0 3px 0;
+      padding: 8px 0 8px 0;
       background-color: rgb(0, 128, 128);
       color: white;
     }
 
     #div1{
-      color:grey;
+      color:#cccccc;
     }
 
     #setting {
+        padding: 20px 20px;
+        text-decoration: none;
+        background: url('gambar/new/sett.png') center no-repeat;
+        background-size: 38px 38px;
         position: absolute;
-        top: 25px;
+        top: 40px;
         right: 50px;
         z-index: 101;
     }
 
-    #setting{
-    text-decoration: none;
-    background: url('gambar/new/sett.png') center no-repeat;
-    background-size: 38px 38px;
-    /*
-    transition: 1s;
-    border-top-right-radius: 1vmin;
-    border-bottom-right-radius: 1vmin;
-
-    border-width: 0px;
-    border-radius: 2vmax;*/
-    padding: 20px 20px;
-    }
-
     #setting:hover{
-      opacity: 0.5;
-      background-color: #CCCCCC;
+      padding: 20px 20px;
+      text-decoration: none;
+      background: url('gambar/new/sett1.png') center no-repeat;
+      background-size: 38px 38px;
+      position: absolute;
+      top: 40px;
+      right: 50px;
+      z-index: 101;
     }
 
     #list{
+      position:absolute;
+      top: 40px;
+      right:91%;
+      z-index: 101;
       text-decoration: none;
       background: url('gambar/new/read.png') center no-repeat;
       background-size: 38px 38px;
-      /*
-      transition: 1s;
-      border-top-right-radius: 1vmin;
-      border-bottom-right-radius: 1vmin;
-
-      border-width: 0px;
-      border-radius: 2vmax;*/
       padding: 20px 20px;
     }
 
     #list:hover{
-      opacity: 0.5;
-      background-color: #CCCCCC;
-    }
-
-    #list {
-        position:absolute;
-        top: 25px;
-        right:91%;
-        z-index: 101;
+      position:absolute;
+      top: 40px;
+      right:91%;
+      z-index: 101;
+      text-decoration: none;
+      background: url('gambar/new/read1.png') center no-repeat;
+      background-size: 38px 38px;
+      padding: 20px 20px;
     }
 
     .p{

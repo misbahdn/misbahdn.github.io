@@ -1,4 +1,8 @@
 body{
+background: url('../gambar/bmx.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 text-align: center;
 font-family: calibri;
 color: black;
@@ -6,43 +10,27 @@ margin: 0 0px 0 0px;
 }
 
 #div_head{
-background: white;
+background: rgba(255,255,255,0.6);
 width: 100%;
 position: fixed;
-padding-bottom: 0px;
+padding-bottom: 50px;
 }
 
 
 /*menu website*/
 #div_menu{
-  padding-top:8%;
+  padding-top:10%;
 }
 .menu{
 text-decoration: none;
-color:rgba(0, 128, 128, 0.5);
+color:#cccccc;
 font-weight: bold;
-/*border-width: 2px;
-border-style: solid;
-border-radius: 1vmin;
-border-color: white;
-text-decoration: none;
-
-padding: 8px 8px;*/
 }
 
-/*kondisi biasa*/
-
-/*kondisi setelah di kunjungi*/
-/*
-.menu:visited{
-color:black;
-}
-*/
 /*kondisi hover-mouse berada diatasnya*/
 .menu:hover{
 text-decoration: underline;
-color:rgb(0, 128, 128);
-background: white;
+color:white;
 transition: background 1s, color 0.5s;
 }
 
@@ -62,7 +50,7 @@ border-radius: 0.5vmin;
 }
 
 #div0{
-color: grey;
+color: #cccccc;
 clear: both;
 padding-top: 23px;
 }
@@ -75,12 +63,6 @@ font-family: facebook letter faces;
 text-decoration: none;
 background: rgb(0, 128, 128) url('../gambar/new/linkfb1.png') center no-repeat;
 background-size: 10px 18px;
-/*
-background-position: 25px 12px;
-transition: 1s;
-border-top-right-radius: 1vmin;
-border-bottom-right-radius: 1vmin;
-*/
 border-width: 0px;
 border-style: solid;
 border-radius: 2vmax;
@@ -90,6 +72,20 @@ padding: 20px 20px;
 }
 
 #link_facebook:hover{
+  color: rgb(0, 0, 255);
+  /*font-weight:bold;*/
+  font-size: 0px;
+  font-family: facebook letter faces;
+  text-decoration: none;
+  background: rgb(0, 188, 188) url('../gambar/new/linkfb11.png') center no-repeat;
+  background-size: 10px 18px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 2vmax;
+  border-color: black;
+
+  padding: 20px 20px;
+
   border-width: 1px;
   border-color: rgb(0, 188, 188);
 }
@@ -101,11 +97,6 @@ font-size: 0px;
 text-decoration: none;
 background: rgb(0, 128, 128) url('../gambar/new/linktwt1.png') center no-repeat;
 background-size: 18px 18px;
-/*
-transition: 1s;
-border-top-right-radius: 1vmin;
-border-bottom-right-radius: 1vmin;
-*/
 border-width: 0px;
 border-style: solid;
 border-radius: 2vmax;
@@ -115,6 +106,19 @@ padding: 20px 20px;
 }
 
 #link_twitter:hover{
+  color: rgb(0,128,255);
+  font-weight:bold;
+  font-size: 0px;
+  text-decoration: none;
+  background: rgb(0, 188, 188) url('../gambar/new/linktwt11.png') center no-repeat;
+  background-size: 18px 18px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 2vmax;
+  border-color: black;
+
+  padding: 20px 20px;
+
   border-width: 1px;
   border-color: rgb(0, 188, 188);
 }
@@ -126,11 +130,6 @@ font-size: 0px;
 text-decoration: none;
 background: rgb(0, 128, 128) url('../gambar/new/linkig1.png') center no-repeat;
 background-size: 18px 18px;
-/*
-transition: 1s;
-border-top-right-radius: 1vmin;
-border-bottom-right-radius: 1vmin;
-*/
 border-width: 0px;
 border-style: solid;
 border-radius: 2vmax;
@@ -140,6 +139,19 @@ padding: 20px 20px;
 }
 
 #link_instagram:hover{
+  color:rgb(128, 0, 128);
+  font-weight:bold;
+  font-size: 0px;
+  text-decoration: none;
+  background: rgb(0, 188, 188) url('../gambar/new/linkig11.png') center no-repeat;
+  background-size: 18px 18px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 2vmax;
+  border-color: black;
+
+  padding: 20px 20px;
+
   border-width: 1px;
   border-color: rgb(0, 188, 188);
 }
@@ -151,11 +163,6 @@ font-size: 0px;
 text-decoration: none;
 background: rgb(0, 128, 128) url('../gambar/new/linkgo1.png') center no-repeat;
 background-size: 25px 18px;
-/*
-transition: 1s;
-border-top-right-radius: 1vmin;
-border-bottom-right-radius: 1vmin;
-*/
 border-width: 0px;
 border-style: solid;
 border-radius: 2vmax;
@@ -165,12 +172,25 @@ padding: 20px 20px;
 }
 
 #link_gmail:hover{
+  color:rgb(128, 0, 128);
+  font-weight:bold;
+  font-size: 0px;
+  text-decoration: none;
+  background: rgb(0, 188, 188) url('../gambar/new/linkgo11.png') center no-repeat;
+  background-size: 25px 18px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 2vmax;
+  border-color: black;
+
+  padding: 20px 20px;
+
   border-width: 1px;
   border-color: rgb(0, 188, 188);
 }
 
 #copy{
-  padding: 3px 0 3px 0;
+  padding: 8px 0 8px 0;
   background-color: rgb(0, 128, 128);
   color: white;
 }
@@ -193,12 +213,12 @@ padding: 20px 20px;
   opacity: 1;
 }*/
 
-h1{
-  top: 20px;
+#h1{
+  left: 30px;
+  top: 28px;
   bottom:0;
   margin: 0px 0 0 0px;
   position:relative;
-  font-family:channel;
 }
 
 h4{
@@ -218,55 +238,47 @@ h4{
 }
 
 #setting {
+    padding: 20px 20px;
+    text-decoration: none;
+    background: url('../gambar/new/sett.png') center no-repeat;
+    background-size: 38px 38px;
     position: absolute;
-    top: 25px;
+    top: 40px;
     right: 50px;
     z-index: 101;
 }
 
-#setting{
-text-decoration: none;
-background: url('../gambar/new/sett.png') center no-repeat;
-background-size: 38px 38px;
-/*
-transition: 1s;
-border-top-right-radius: 1vmin;
-border-bottom-right-radius: 1vmin;
-
-border-width: 0px;
-border-radius: 2vmax;*/
-padding: 20px 20px;
-}
-
 #setting:hover{
-  opacity: 0.5;
-  background-color: #CCCCCC;
+  padding: 20px 20px;
+  text-decoration: none;
+  background: url('../gambar/new/sett1.png') center no-repeat;
+  background-size: 38px 38px;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 101;
 }
 
 #list{
+  position:absolute;
+  top: 40px;
+  right:91%;
+  z-index: 101;
   text-decoration: none;
   background: url('../gambar/new/read.png') center no-repeat;
   background-size: 38px 38px;
-  /*
-  transition: 1s;
-  border-top-right-radius: 1vmin;
-  border-bottom-right-radius: 1vmin;
-
-  border-width: 0px;
-  border-radius: 2vmax;*/
   padding: 20px 20px;
 }
 
 #list:hover{
-  opacity: 0.5;
-  background-color: #CCCCCC;
-}
-
-#list {
-    position:absolute;
-    top: 25px;
-    right:91%;
-    z-index: 101;
+  position:absolute;
+  top: 40px;
+  right:91%;
+  z-index: 101;
+  text-decoration: none;
+  background: url('../gambar/new/read1.png') center no-repeat;
+  background-size: 38px 38px;
+  padding: 20px 20px;
 }
 
 #cap{
@@ -274,6 +286,8 @@ padding: 20px 20px;
 }
 
 #member{
+  margin: 55px 0 0 0;
+  color: black;
   font-weight: bold;
   font-size: 32px;
 }

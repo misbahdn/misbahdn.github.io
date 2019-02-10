@@ -2,7 +2,7 @@
 <!-- misbahhdn -->
 <html>
     <head>
-        <title> web-mmisbahdn/Kontak </title>
+        <title> kontak-misbahdn.github.io </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style1.css">
     </head>
@@ -11,25 +11,24 @@
         <!-- bagian awal, isinya tag heading -->
         <div id="div_head">
           <div id="img">
-            <img id="png1" src="../gambar/fix.png" title="http://misbahdn.github.io">
+            <img id="png1" src="../gambar/fx.png" title="http://misbahdn.github.io">
           </div>
           <div>
-            <a href="../subfiles/Setting.html" id="list" title="Menu" ></a>
+            <a href="../subfiles/list.html" id="list" title="Menu" ></a>
           </div>
           <div>
             <a href="../subfiles/Setting.html" id="setting" title="Setting" ></a>
           </div>
 
           <div id="di" title="http://misbahdn.github.io">
-            <h4>.github.io</h4>
-            <h1>misbahdn</h1>
+            <img id="h1" src="../gambar/name.png" title="http://misbahdn.github.io">
           </div>
-          <hr style="color:#FFFFFF;border-width:2px;">
         </div>
         <!-- menu website -->
         <div id="div_menu">
           <a href="../index.html" class="menu">Home</a>&nbsp;
-          <a href="../subfiles/kontak.html" class="menu">Kontak</a>&nbsp;
+          <a href="../GALERI/indexgaleri.html" class="menu">Galeri</a>&nbsp;
+          <a href="../subfiles/kontak.html" style="color:white;text-decoration:underline;font-size:23px;" class="menu">Kontak</a>&nbsp;
           <a href="../subfiles/member.html" class="menu">Member</a>
         </div>
         <p id="contact">Kontak</p>
@@ -51,7 +50,7 @@
               </tabel>
           </fieldset>-->
           <fieldset id="field">
-		        <legend><b>Input</b> - <em><b>Data</b></em></legend>
+		        <legend>Input - <em><b>Data</b></em></legend>
 		          <table>
           			<tr>
             			<td>Nomor Induk Siswa (NIS)</td>
@@ -94,7 +93,7 @@
         					<td>Alamat</td>
         					<td>:</td>
         					<td>
-        						<textarea name="alamat" placeholder="Alamat..."></textarea>
+        						<input type="text" name="alamat" placeholder="Alamat..."></input>
         					</td>
         				</tr>
 
@@ -125,11 +124,11 @@
 			  </div>
   			<div style="margin:0 0px 0% 0px;color:white;">
   				<fieldset id="field1">
-  					<legend>Pilihan - <em>Data</em></legend>
+  					<legend>Pilihan - <em><b>Data</b></em></legend>
   					<!--<label>Tgl : </label><input name="startdate" min="2000-01-01" max="3000-01-01" type="date">-->
   					<input type="color" style="float:right;">
-  					<br><br>
-  					<label>Hobi :</label><br>
+            <div style="padding:0 0 30px 0;"></div>
+  					<label">Hobi :</label><br>
             <input type="checkbox" name="hobi_user" value="0" checked> Kaligrafi <br>
   					<input type="checkbox" name="hobi_user" value="1"> Programming <br>
   					<input type="checkbox" name="hobi_user" value="2"> Desain Grafis <br>
@@ -144,12 +143,12 @@
   						<optgroup label="Frontend">
   							<option value="html">HTML</option>
   							<option value="css">CSS</option>
-  							<option value="c++">C++</option>
+  							<option value="c++">JavaScript</option>
   						</optgruop>
   						<optgroup label="Backend">
   							<option value="php">PHP</option>
   							<option value="mysql">MySQL</option>
-  							<option value="db">Database</option>
+  							<option value="db">es6</option>
   						</optgroup>
   					</select>
             <br>
@@ -166,113 +165,18 @@
         <p class="p">.</p>
         <p class="p">.</p>
         <p class="p">.</p>
-        <p class="p">.</p>
-        <p class="p">.</p>
-        <p class="p">.</p>
-        <p class="p">.</p>
 
-        <!-- membuat table -->
-        <!--
-        <table border="2" id="table">
-            <caption> <b>DAFTAR SISWA/I Koding TKJ1</b> </caption>
-            <tr>
-                <th>NIS</th>
-                <th>Nama siswa/i</th>
-                <th>Tempat lahir</th>
-                <th>Tgl lahir</th>
-                <th>Jenis kelamin</th>
-                <th>Alamat</th>
-                <th>Agama</th>
-                <th>Kota asal</th>
-                <th>No.Tlpn/Hp</th>
-            </tr>
-            <tr>
-                <td>101112</td>
-                <td>Dafi</td>
-                <td>Lampung</td>
-                <td>18-08-2000</td>
-                <td>Perempuan</td>
-                <td>kp.pasirgadung</td>
-                <td>Islam</td>
-                <td>Tangerang</td>
-                <td>+62896112312323</td>
-            </tr>
-            <tr>
-                <td>101112</td>
-                <td>Misbah</td>
-                <td>Serang</td>
-                <td>01-03-2000</td>
-                <td>Laki-laki</td>
-                <td>kp.pasirawi</td>
-                <td>Islam</td>
-                <td>Tangerang</td>
-                <td>+6281542424822</td>
-            </tr>
-            <tr>
-                <td>101112</td>
-                <td>Jihan</td>
-                <td>Jakarta</td>
-                <td>08-12-2000</td>
-                <td>Perempuan</td>
-                <td>kp.cilongok</td>
-                <td>Islam</td>
-                <td>Tangerang</td>
-                <td>+62896111222333</td>
-            </tr>
-            <tr>
-                <td>101112</td>
-                <td>Ahza</td>
-                <td>Bandung</td>
-                <td>25-07-2000</td>
-                <td>Laki-laki</td>
-                <td>kp.rajegasri</td>
-                <td>Islam</td>
-                <td>Tangerang</td>
-                <td>+62896123123333</td>
-            </tr>
-        </table>
-        -->
-        <!-- list pada html -->
-        <!--
-        <ul class="list">
-            <li>misbah</li>
-            <li>zufar</li>
-            <li>lilis</li>
-            <li>yanti</li>
-        </ul>
-
-        <ol class="list">
-            <li>misbah</li>
-            <li>zufar</li>
-            <li>lilis</li>
-            <li>yanti</li>
-        </ol>
-
-        <dl class="list">
-            <dt>misbah</dt>
-            <dd>user 1st koding TKJ1</dd>
-
-            <dt>zufar</dt>
-            <dd>user 2nd koding TKJ1</dd>
-
-            <dt>lilis</dt>
-            <dd>user 3rd koding TKJ1</dd>
-
-            <dt>yanti</dt>
-            <dd>user 4rd koding TKJ1</dd>
-        </dl>
-        -->
-    		<div id="div0">
+        <div id="div0">
             <p>Follow us :</p>
-            <a href="https://facebook.com" target="_blank" id="link_facebook" title="facebook"></a>
+            <a href="https://web.facebook.com/profile.php?id=100010762080550" target="_blank" id="link_facebook" title="facebook"></a>
             <a href="https://twitter.com" target="_blank" id="link_twitter" title="Twitter"></a>
-            <a href="https://instagram.com" target="_blank" id="link_instagram" title="Instagram"></a>
-      			<a href="https://gmail.com" target="_blank" id="link_gmail" title="Gmail+"></a>
+            <a href="https://www.instagram.com/m2sbhdn/?hl=id" target="_blank" id="link_instagram" title="Instagram"></a>
+      			<a href="https://plus.google.com/u/0/107775357293844581193" target="_blank" id="link_gmail" title="Gmail+"></a>
             <hr style="margin:28px 28% 28px 28%;">
         </div>
 
         <div id="copy">
-          <p>&copy; PemudaIndonesia2018</p>
+          <p>&copy; PemudaIndonesia 2018</p>
         </div>
     </body>
 </html>
