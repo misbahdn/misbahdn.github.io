@@ -10,14 +10,14 @@ function ganti_gambar(gambar){
 
 function left1(){
   no_sekarang = no_sekarang - 1;
-  if(no_sekarang < 0) no_sekarang = 6;
+  if(no_sekarang < 0) no_sekarang = 5;
 
   target_gambar.src = array_gambar[no_sekarang].getAttribute('src');
 }
 
 function right1(){
   no_sekarang = no_sekarang + 1;
-  if(no_sekarang > 6) no_sekarang = 0;
+  if(no_sekarang > 5) no_sekarang = 0;
 
   target_gambar.src = array_gambar[no_sekarang].getAttribute('src');
 }
